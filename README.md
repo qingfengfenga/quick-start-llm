@@ -37,6 +37,8 @@
 
 ### 下载模型
 
+> 如果提示没有`lfs`命令，则需要安装`git-lfs`，`Debian / Ubuntu`系统可执行此命令安装`sudo apt-get install git-lfs`。
+
 进入模型目录
 ```
 cd ./models/THUDM
