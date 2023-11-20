@@ -39,13 +39,17 @@
 
 > 如果提示没有`lfs`命令，则需要安装`git-lfs`，`Debian / Ubuntu`系统可执行此命令安装`sudo apt-get install git-lfs`。
 
+仓库根目录执行
+```
+git lfs install
+```
+
 进入模型目录
 ```
 cd ./models/THUDM
 ```
 下载模型
 ```
-git lfs install
 git clone https://www.modelscope.cn/ZhipuAI/chatglm3-6b.git
 ```
 ### 配置文件
